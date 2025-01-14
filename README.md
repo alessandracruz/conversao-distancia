@@ -1,1 +1,123 @@
-# conversao-distancia
+# **Conversão de Distâncias - Projeto DevOps**
+
+Este repositório contém o projeto "Conversão de Distâncias", desenvolvido como parte de um **desafio prático da Semana DevOps**. A aplicação é um serviço em **Python** que realiza conversões entre diferentes unidades de distância, como **metros**, **quilômetros** e **milhas**.
+
+O objetivo deste projeto é praticar conceitos fundamentais de **containers com Docker**, **integração contínua (CI)**, **orquestração com Kubernetes**, além de explorar **ferramentas de monitoramento**.
+
+------
+
+## 📚 **Estrutura do Desafio**
+
+O projeto será desenvolvido ao longo de **5 dias**, com desafios progressivos. Cada etapa vai focar em um tópico específico de práticas DevOps, como criação de containers, orquestração e CI/CD.
+
+------
+
+### 🔹 **Desafio 1: Docker - Configuração do Ambiente e Criação do Container**
+
+- Fork do repositório original.
+- Configuração de um **Dockerfile** funcional.
+- Criação de uma imagem Docker e execução do container para rodar a aplicação na porta **5000**.
+- Testes básicos para validar a funcionalidade.
+
+*Status: ✅ Concluído.*
+
+------
+
+### 🔹 **Desafio 2: Kubernetes - Do Zero ao Deploy**
+
+- Configuração de um cluster Kubernetes local ou na nuvem.
+- Criação de manifestos **YAML** para deployment e service.
+- Testes de escalabilidade.
+
+*Status: 🔜 Aguardando.*
+
+------
+
+### 🔹 **Desafio 3: AWS - Deploy Ágil e Seguro na Cloud**
+
+- Criação de uma infraestrutura segura na **AWS** usando **EKS** (Elastic Kubernetes Service).
+- Configuração de pipelines de deploy contínuo para a cloud.
+
+*Status: 🔜 Aguardando.*
+
+------
+
+### 🔹 **Desafio 4: GitHub Actions - Deploy Automatizado**
+
+- Configuração de um pipeline de CI/CD utilizando **GitHub Actions**.
+- Automatização do build e deploy da aplicação.
+- Execução de testes automatizados no pipeline.
+
+*Status: 🔜 Aguardando.*
+
+------
+
+### 🔹 **Desafio 5: Monitoramento com Prometheus e Grafana**
+
+- Configuração do **Prometheus** para coleta de métricas.
+- Configuração do **Grafana** para visualização das métricas.
+- Implementação de alertas para monitorar o estado da aplicação.
+
+*Status: 🔜 Aguardando.*
+
+------
+
+## 🚀 **Como Executar o Projeto Localmente**
+
+### 📦 **Pré-requisitos**
+
+- Docker instalado no sistema.
+- Git configurado.
+
+### 💻 **Passos para Rodar o Container**
+
+1. Clone este repositório:
+
+   ```
+   git clone https://github.com/seu-usuario/conversao-distancia.git
+   cd conversao-distancia
+   ```
+
+2. Construa a imagem Docker:
+
+   ```
+   docker build -t conversao-distancia -f Dockerfile .
+   ```
+
+3. Execute o container:
+
+   ```
+   docker container run -d -p 8181:5000 conversao-distancia
+   ```
+
+4. Acesse a aplicação:
+
+   ```
+   http://localhost:5000
+   ```
+
+------
+
+## 📅 **Cronograma do Projeto**
+
+| Data  | Desafio                                              | Status                         |
+| ----- | ---------------------------------------------------- | ------------------------------ |
+| 13/01 | Primeiros passos em DevOps e Docker                  | ✅ Concluído                    |
+| 13/01 | Desafio 1 - Docker                                   | ✅ Concluído                    |
+| 14/01 | Desafio Kubernetes                                   | Do zero ao deploy              |
+| 15/01 | Desafio AWS                                          | Deploy ágil e seguro na cloud  |
+| 15/01 | Desafio 2 - Kubernetes                               | 🔜 Aguardando                   |
+| 16/01 | Desafio GitHub Actions                               | Deploy automatizado e sem medo |
+| 17/01 | Visão 360º da sua aplicação com Prometheus e Grafana | 🔜 Aguardando                   |
+
+------
+
+## 📌 **Contribuição**
+
+Este projeto é um ótimo ponto de partida para quem está começando com **Docker**, **Kubernetes** e práticas **DevOps**.
+
+------
+
+## 📋 **Licença**
+
+Este projeto é para fins educacionais e está aberto para uso e modificação conforme necessário.
