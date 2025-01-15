@@ -19,6 +19,19 @@ O projeto será desenvolvido ao longo de **5 dias**, com desafios progressivos. 
 - Criação de uma imagem Docker e execução do container para rodar a aplicação na porta **5000**.
 - Testes básicos para validar a funcionalidade.
 
+## 🐳 Imagem no Docker Hub
+
+A imagem Docker desta aplicação está disponível no Docker Hub e pode ser acessada através do seguinte link:
+
+➡️ **[alessaccruz/conversao-distancia](https://hub.docker.com/r/alessaccruz/conversao-distancia)**
+
+Para baixar a imagem e executar o container localmente:
+
+```
+docker pull alessaccruz/conversao-distancia
+docker run -p 5000:5000 alessaccruz/conversao-distancia
+```
+
 *Status: ✅ Concluído.*
 
 ------
