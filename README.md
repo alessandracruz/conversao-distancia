@@ -38,11 +38,29 @@ docker run -p 5000:5000 alessaccruz/conversao-distancia
 
 ### 🔹 **Desafio 2: Kubernetes - Do Zero ao Deploy**
 
-- Configuração de um cluster Kubernetes local ou na nuvem.
-- Criação de manifestos **YAML** para deployment e service.
-- Testes de escalabilidade.
+- Configuração de um cluster Kubernetes local para gerenciar a aplicação.
+- Criação dos principais objetos Kubernetes, como:
+  - **Deployment** para gerenciar a escalabilidade e resiliência dos pods.
+  - **Service** para fornecer um ponto único de acesso à aplicação.
+- Implementação de conceitos como:
+  - Escalabilidade (múltiplos pods com o `replicas`).
+  - Troca eficiente de versão, atualizando a aplicação de `v1` para `v2`.
+- Testes realizados para validar o deploy e verificar a funcionalidade básica da aplicação.
 
-*Status: 🔜 Aguardando.*
+## 🐳 Imagem Docker Atualizada
+
+A nova versão da aplicação foi publicada no Docker Hub e pode ser acessada no seguinte link:
+
+➡️ **[alessaccruz/conversao-distancia:v2](https://hub.docker.com/r/alessaccruz/conversao-distancia)**
+
+Para baixar e executar a nova versão localmente:
+
+```
+docker pull alessaccruz/conversao-distancia:v2
+docker run -p 5000:5000 alessaccruz/conversao-distancia:v2
+```
+
+*Status: ✅ Concluído.*
 
 ------
 
