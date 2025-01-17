@@ -67,9 +67,10 @@ docker run -p 5000:5000 alessaccruz/conversao-distancia:v2
 ### 🔹 **Desafio 3: AWS - Deploy Ágil e Seguro na Cloud**
 
 - Criação de uma infraestrutura segura na **AWS** usando **EKS** (Elastic Kubernetes Service).
-- Configuração de pipelines de deploy contínuo para a cloud.
+- Deploy do **Fake Shop**, um projeto de e-commerce.
+- Fork do repositório Fake Shop para desenvolvimento: **[Fake Shop - Repositório](https://github.com/alessandracruz/fake-shop)**.
 
-*Status: 🔜 Aguardando.*
+*Status: ✅ Concluído.*
 
 ------
 
@@ -137,7 +138,7 @@ docker run -p 5000:5000 alessaccruz/conversao-distancia:v2
 | 13/01 | Desafio 1 - Docker                                   | ✅ Concluído                    |
 | 14/01 | Desafio Kubernetes                                   | Do zero ao deploy              |
 | 15/01 | Desafio AWS                                          | Deploy ágil e seguro na cloud  |
-| 15/01 | Desafio 2 - Kubernetes                               | 🔜 Aguardando                   |
+| 15/01 | Desafio 2 - Fake Shop                                | ✅ Concluído                    |
 | 16/01 | Desafio GitHub Actions                               | Deploy automatizado e sem medo |
 | 17/01 | Visão 360º da sua aplicação com Prometheus e Grafana | 🔜 Aguardando                   |
 
