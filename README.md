@@ -76,11 +76,16 @@ docker run -p 5000:5000 alessaccruz/conversao-distancia:v2
 
 ### 🔹 **Desafio 4: GitHub Actions - Deploy Automatizado**
 
-- Configuração de um pipeline de CI/CD utilizando **GitHub Actions**.
-- Automatização do build e deploy da aplicação.
-- Execução de testes automatizados no pipeline.
+- Configuração de um pipeline de **CI/CD** utilizando **GitHub Actions**.
+- O pipeline implementado exemplifica o potencial das integrações em automações, incluindo:
+  - **Execução de testes unitários e de integração.**
+  - **Análise de qualidade de código.**
+  - **Deploy automatizado após validações.**
+- A pipeline foi configurada para o projeto **Fake Shop**, seguindo os princípios de qualidade e agilidade DevOps.
 
-*Status: 🔜 Aguardando.*
+Para acessar o repositório do **Fake Shop**, clique aqui: **[Fake Shop - Repositório](https://github.com/alessandracruz/fake-shop)**.
+
+*Status: ✅ Concluído.*
 
 ------
 
