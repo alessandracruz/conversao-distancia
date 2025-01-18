@@ -91,11 +91,13 @@ Para acessar o repositório do **Fake Shop**, clique aqui: **[Fake Shop - Reposi
 
 ### 🔹 **Desafio 5: Monitoramento com Prometheus e Grafana**
 
-- Configuração do **Prometheus** para coleta de métricas.
-- Configuração do **Grafana** para visualização das métricas.
-- Implementação de alertas para monitorar o estado da aplicação.
+- Configuração do **Prometheus** para coleta de métricas da aplicação e monitoramento do cluster Kubernetes.
+- Configuração do **Grafana** para visualização de métricas com dashboards personalizados.
+- Implementação de alertas para monitorar o estado da aplicação e da infraestrutura, permitindo uma resposta rápida a possíveis problemas.
 
-*Status: 🔜 Aguardando.*
+Para acessar o repositório do **Fake Shop**, clique aqui: **[Fake Shop - Repositório](https://github.com/alessandracruz/fake-shop)**.
+
+*Status: ✅ Concluído.*
 
 ------
 
@@ -137,15 +139,17 @@ Para acessar o repositório do **Fake Shop**, clique aqui: **[Fake Shop - Reposi
 
 ## 📅 **Cronograma do Projeto**
 
-| Data  | Desafio                                              | Status                         |
-| ----- | ---------------------------------------------------- | ------------------------------ |
-| 13/01 | Primeiros passos em DevOps e Docker                  | ✅ Concluído                    |
-| 13/01 | Desafio 1 - Docker                                   | ✅ Concluído                    |
-| 14/01 | Desafio Kubernetes                                   | Do zero ao deploy              |
-| 15/01 | Desafio AWS                                          | Deploy ágil e seguro na cloud  |
-| 15/01 | Desafio 2 - Fake Shop                                | ✅ Concluído                    |
-| 16/01 | Desafio GitHub Actions                               | Deploy automatizado e sem medo |
-| 17/01 | Visão 360º da sua aplicação com Prometheus e Grafana | 🔜 Aguardando                   |
+## **
+
+| Data  | Desafio                                                      | Status                         |
+| ----- | ------------------------------------------------------------ | ------------------------------ |
+| 13/01 | Primeiros passos em DevOps e Docker                          | ✅ Concluído                    |
+| 13/01 | Desafio 1 - Docker                                           | ✅ Concluído                    |
+| 14/01 | Desafio Kubernetes                                           | Do zero ao deploy              |
+| 15/01 | Desafio AWS                                                  | Deploy ágil e seguro na cloud  |
+| 15/01 | Desafio 2 - Fake Shop                                        | ✅ Concluído                    |
+| 16/01 | Desafio GitHub Actions                                       | Deploy automatizado e sem medo |
+| 17/01 | Desafio 3 - Visão 360º da sua aplicação com Prometheus e Grafana | ✅ Concluído                    |
 
 ------
 
